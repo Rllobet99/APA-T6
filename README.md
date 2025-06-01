@@ -91,7 +91,7 @@ La función deberá cumplir los requisitos siguientes:
   ...     print(alumnos[alumno])
   ...
   171     Blanca Agirrebarrenetse 9.5
-  23      Carles Balcells de Lara 4.9
+  23      Carles Balcell de Lara 4.9
   68      David Garcia Fuster     7.0
   ```
 
@@ -240,6 +240,10 @@ Inserte a continuación una captura de pantalla que muestre el resultado de ejec
 fichero `alumno.py` con la opción *verbosa*, de manera que se muestre el
 resultado de la ejecución de los tests unitarios.
 
+###### Tests unitarios leeAlumnos
+
+![alt text](test.png)
+
 ##### Código desarrollado
 
 Inserte a continuación los códigos fuente desarrollados en esta tarea, usando los
@@ -320,7 +324,7 @@ def leeAlumnos(file):
     ...     print(alumnos[alumno])
     ...
     171     Blanca Agirrebarrenetse 9.5
-    23      Carles Balcells de Lara 4.9
+    23      Carles Balcell de Lara 4.9
     68      David Garcia Fuster     7.0
     """
     regex = r"(?P<id>\d+)\s+(?P<fullname>(?P<name>[a-zA-Z]+)(?:\s+[a-zA-Z]+)+)\s+(?P<notas>(\d+\.?\d*\s*)+)"

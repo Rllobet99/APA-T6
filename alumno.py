@@ -69,7 +69,7 @@ def leeAlumnos(file):
     ...     print(alumnos[alumno])
     ...
     171     Blanca Agirrebarrenetse 9.5
-    23      Carles Balcells de Lara 4.9
+    23      Carles Balcell de Lara 4.9
     68      David Garcia Fuster     7.0
     """
     regex = r"(?P<id>\d+)\s+(?P<fullname>(?P<name>[a-zA-Z]+)(?:\s+[a-zA-Z]+)+)\s+(?P<notas>(\d+\.?\d*\s*)+)"
